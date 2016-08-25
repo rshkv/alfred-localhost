@@ -112,11 +112,11 @@
 	<key>createdby</key>
 	<string>Willi Raschkowski</string>
 	<key>description</key>
-	<string>Open localhost on given port</string>
+	<string>Open localhost</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Localhost</string>
+	<string>localhost</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -158,6 +158,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>http://localhost:{query}/</string>
+				<key>utf8</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>7675DE5F-B35E-4B75-8EE4-59F2DAFFC85B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>keyword</key>
@@ -173,25 +192,6 @@
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>45CA3FA7-DE94-47E3-B854-ED3D1267104F</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>http://localhost:{query}/</string>
-				<key>utf8</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>7675DE5F-B35E-4B75-8EE4-59F2DAFFC85B</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
